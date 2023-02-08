@@ -3,6 +3,10 @@
     display: none;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .menu-bar {
     position: fixed;
     left: 0;
@@ -40,13 +44,13 @@
     color: #67798e;
     border: none;
     font-size: 25px;
-    border: none;
   }
 
   .menu-mobile a {
     color: #fff;
     font-size: 20px;
   }
+
   .newline {
     border: 2px solid #ec5242;
     width: 100%;
@@ -61,10 +65,6 @@
 
   ul {
     list-style-type: none;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   .home-header {
@@ -109,7 +109,6 @@
     font-size: 50px;
   }
 
-  /* about css */
   .live-oromia {
     display: flex;
     flex-direction: column;
@@ -119,6 +118,10 @@
   .live-oromia h2 {
     color: #22252d;
     font-size: 32px;
+  }
+
+  .partner-hr h2 {
+    color: #d3d3d3;
   }
 
   .live-oromia p {
@@ -140,7 +143,8 @@
   }
 
   .live-container1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -154,7 +158,8 @@
   }
 
   .live-container2 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -188,10 +193,6 @@
     align-items: center;
   }
 
-  .partner-hr h2 {
-    color: #d3d3d3;
-  }
-
   .part {
     border: 3px solid #ec5242;
     width: 50px;
@@ -211,12 +212,7 @@
     width: 100%;
   }
 
-  .creative-container {
-    padding: 100px;
-  }
-
   .creative-common {
-    /* padding: 50px 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,18 +224,18 @@
     font-size: 20px;
   }
 
+  .creative-heading {
+    color: #22252d;
+    font-size: 23px;
+    padding: 0 100px;
+  }
+
   .info .creative-heading {
     border-bottom: 2px solid #22252d;
   }
 
   .creative-common img {
     width: 40%;
-  }
-
-  .creative-heading {
-    color: #22252d;
-    font-size: 23px;
-    padding: 0 100px;
   }
 
   .creative-container {
@@ -263,6 +259,7 @@
     font-size: 22px;
     color: #272a31;
   }
+
   .contact-us .info {
     font-size: 18px;
   }
@@ -310,7 +307,7 @@
 
   .hr {
     width: 100px;
-    border: 1px solid #ec5242;
+    border: 3px solid #ec5242;
   }
 
   .about-heading {
@@ -322,7 +319,6 @@
     gap: 10px;
     margin-top: 20px;
     padding: 10px;
-    border: 0.5px solid gray;
   }
 
   .content-heading {
@@ -344,15 +340,17 @@
 
   .feature-container {
     background-color: #fff;
+    padding: 50px 5px;
   }
 
   .feature {
-    padding: 20px 5px;
+    padding: 20px 20px;
   }
 
   .speaker-pro {
     color: #ec5242;
   }
+
   .speaker-words {
     color: #22252d;
     font-size: 20px;
@@ -377,9 +375,14 @@
     display: none;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .hidden-menu {
     display: none;
   }
+
   .desktop-nav {
     display: flex;
     flex-direction: column;
@@ -415,18 +418,17 @@
     background: url(images/fire_image.jpg) 0 0 / cover no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(236, 82, 66, 0.6);
-  }
-
-  .contact-us .creative-heading {
-    border-bottom: 2px solid#22252d;
-  }
-  .creative-container {
-    padding: 10px 100px;
+    font-size: 50px;
+    color: #ec5242;
   }
 
   .creative-heading {
     color: #22252d;
     font-size: 32px;
+  }
+
+  .contact-us .creative-heading {
+    border-bottom: 2px solid#22252d;
   }
 
   .logo-container {
@@ -454,6 +456,10 @@
     align-items: center;
   }
 
+  .heading-hr hr {
+    border: 3px solid #ec5242;
+  }
+
   .live-cont {
     display: grid;
     gap: 30px;
@@ -468,6 +474,10 @@
     background-size: 100% 100%;
   }
 
+  .partner-hr h2 {
+    color: #d3d3d3;
+  }
+
   .live-cont div > h2 {
     color: #d3d3d3;
     font-size: 23px;
@@ -479,7 +489,8 @@
   }
 
   .live-container1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -493,7 +504,8 @@
   }
 
   .live-container2 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -514,6 +526,7 @@
     padding: 20px;
     margin-top: 0;
   }
+
   .red-border {
     border: 5px solid #ec5242;
     padding: 0 5px;
@@ -529,20 +542,12 @@
     list-style-type: none;
   }
 
-  a {
-    text-decoration: none;
-  }
   .home-page {
     background-image: url("images/mobile\ background.png");
   }
 
   .description {
     padding: 100px 200px;
-  }
-
-  .home-heading {
-    font-size: 50px;
-    color: #ec5242;
   }
 
   .info {
@@ -571,6 +576,7 @@
     padding: 30px;
     gap: 10px;
   }
+
   .content-heading {
     color: #ec5242;
   }
@@ -626,6 +632,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 3px solid #ec5242;
   }
 
   .hr {
@@ -636,13 +643,15 @@
   .feature-container {
     display: grid;
     grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 0 100px;
   }
 
   .feature {
     display: flex;
-    padding: 20px;
+    padding: 40px;
   }
 
   .statement {
@@ -661,9 +670,7 @@
     justify-content: center;
     align-items: center;
   }
-  .partner-hr h2 {
-    color: #d3d3d3;
-  }
+
   .part {
     border: 3px solid #ec5242;
     width: 50px;
@@ -679,6 +686,7 @@
     width: 100px;
     height: 100px;
   }
+
   .hidden-partner {
     display: none;
   }
@@ -689,6 +697,7 @@
     align-items: center;
     gap: 40px;
   }
+
   .creative-common img {
     width: 200px;
     height: 200px;
