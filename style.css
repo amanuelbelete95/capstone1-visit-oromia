@@ -427,6 +427,10 @@
     font-size: 32px;
   }
 
+  .about-info {
+    padding: 0 100px;
+  }
+
   .contact-us .creative-heading {
     border-bottom: 2px solid#22252d;
   }
