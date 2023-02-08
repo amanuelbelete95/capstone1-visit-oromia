@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Main Page</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,52 +12,88 @@
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/4339e938ba.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="home-page" id="home">
+    <div class="menu-bar hidden-menu">
+      <button class="close-btn">
+              <i class="fa fa-times"></i>
+      </button>
+      <div class="menu-mobile">
+           <a href="#about">About</a>
+            <a href="#program">Program</a>
+            <a href="#speaker">Speaker</a>
+      </div>
+    </div>
+
+
+    <div class="home-page" id="program">
       <header class="home-header">
-        <a href="#home" class="logo"
-          ><img src="images/logo.jpg" class="logo"
-        /></a>
-        <nav>
-          <ul class="nav-lists">
-            <li><a href="#about">Home</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </nav>
+        <a class="hum-burger"><i class="fa-solid fa-bars"></i></a>
+        
+        <div class="desktop-nav">
+
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#">Logout</a>
+          <a href="#">myPage</a>
+          <a href="#">Korean</a>
+        </div>
+        <div class="logo-container">
+          <img src="images/bg-visit.jpg" alt="logo" class="logo">
+          <ul class="info-lists">
+              <li><a href="about.html">About</a></li>
+             <li><a href="">Program</a></li>
+             <li><a href="">Join</a></li>
+              <li><a href="">Sponsor</a></li>
+               <li><a href="">News</a></li>
+                <li class="red-border"><a href="">CC Campaign</a></li>
+            </ul>
+        </div>
+        </div>
       </header>
       <div class="home-content">
         <div class="description">
-          <h1 class="home-heading">Welcome to Oromia, Ethiopia!</h1>
-          <h2 class="heading2">Hello, Visitors</h2>
+          <h4 class="heading2">"Hello, Tourist!"</h4>
+          <h1 class="home-heading">
+            Visit Oromia, Ethiopia <br> Land of Origin and Heritages in 2023!
+          </h1>
           <p class="info">
             Oromia is a largest region in Ethiopia with potential natural
             resources and cultural heritages. Visit Oromia where the sheer
             diversity of the culture, people and landscape is sure to leave you
             astounded.
           </p>
+          <div class="time">
+            <h2 class="interval">2022.10.17(MON) ~ 30(SUN)</h2>
+            <p class="place">@Addis Ababa, Ethiopia and more</p>
+          </div>
         </div>
       </div>
     </div>
-
+    
+    <div class="heading-hr" id="about">
+        <h1 class="about-heading">Historic places in Oromia to Visit</h1>
+        <hr class="hr" />
+      </div>
     <div class="about about-page" id="about">
-      <h1 class="about-heading">Historic places in Oromia to Visit</h1>
+      
       <div class="content">
-        <h2 class="content-heading">Bale Park</h2>
-
-        <p>
-          <img src="images/bale park.jpg" alt="" />
-          The Bale Mountains National Park (BMNP) is a protected area of
-          approximately 2,200 km2 and is located 400 km southeast of Addis Ababa
-          in Oromia National Regional State in south-eastern Ethiopia. It
-          belongs to the Bale-Arsi massif, which forms the western section of
-          the south-eastern Ethiopian highlands.
+        <img src="images/bale park.jpg" alt="" class="mobile-image"/>
+        <h2 class="content-heading">Balee Park of Oromia</h2>
+        <p class="place-info">
+          is located 400 km southeast of Addis Ababa in Oromia National Regional
+          State in south-eastern Ethiopia.
         </p>
       </div>
       <div class="content">
+        <img src="images/image2.jpg" alt="" class="mobile-image"/>
         <h2 class="content-heading">Wanchi Village</h2>
-        <p>
-          <img src="images/image2.jpg" alt="" />
+        <p class="place-info">
           Everyone's favorite weekend destination, Wenchi, invites you to spend
           some quality time with the crystal clear lake, fragrant woodlands,
           charming stallions and the beautiful people in their refreshingly
@@ -65,18 +101,18 @@
         </p>
       </div>
       <div class="content">
+        <img src="images/sheik-img.jpg" alt="" class="mobile-image" />
         <h2 class="content-heading">Dirre Sheik Hussein</h2>
-        <p>
-          <img src="images/sheik-img.jpg" alt="" />
+        <p class="place-info">
           Dirre Sheik Hussein is a site of magnificent groups of buildings,
           monumental tombs and courts representing early medieval period of
           significant engineering qualities.
         </p>
       </div>
       <div class="content">
+        <img src="images/jima.jpg" alt="" class="mobile-image"/>
         <h2 class="content-heading">Abba Jifar Palace</h2>
-        <p>
-          <img src="images/jima.jpg" alt="" />
+        <p class="place-info">
           The Palace is the oldest, largest and best preserved surviving example
           of traditional wooden architecture in Jimma. It is a fusion of
           traditional building technology from south-western Ethiopia and the
@@ -84,6 +120,47 @@
           the Indian Ocean.
         </p>
       </div>
+
+
     </div>
+          <div class="button-container">
+       <button class="see-more">More About Oromia</button> 
+      </div>
+
+    <div class="heading-hr">
+        <h1 class="about-heading">Featured Speakers</h1>
+        <hr class="hr" />
+      </div>
+
+    <div class="feature-container">
+      
+    </div>
+
+    <div class="footer" id="">
+
+      <div class="partner" id="partner">
+        <div class="partner-hr">
+          <h2>Partner</h2>
+           <hr class="part">
+        </div>
+       
+       <div class="partner-img">
+        <img src="images/oromia-bank.png" alt="">
+        <img src="images/awash.jpg" alt="">
+        <img src="images/ethiopian-air.png">
+        <img src="images/land eth.png" alt="">
+        <img src="images/oda.jpg" alt="">
+       </div>
+      </div>
+
+      <div class="creative-common" id="creative">
+
+        <img src="images/bg-visit.jpg" alt="">
+        <h3>@2015 Creative Common, Oromia, Ethiopia</h3>
+        
+
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
