@@ -92,7 +92,7 @@
   }
 
   .home-page {
-    background-image: url("images/mobile\ background.png");
+    background-image: url("images/mobile background.png");
   }
 
   .description {
@@ -101,6 +101,7 @@
 
   .home-heading {
     background: url(images/fire_image.jpg) 0 0 / cover no-repeat;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(236, 82, 66, 0.6);
   }
@@ -414,6 +415,7 @@
 
   .home-heading {
     background: url(images/fire_image.jpg) 0 0 / cover no-repeat;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(236, 82, 66, 0.6);
     font-size: 50px;
