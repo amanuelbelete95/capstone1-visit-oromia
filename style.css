@@ -143,8 +143,7 @@
   }
 
   .live-container1 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -158,8 +157,7 @@
   }
 
   .live-container2 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -493,8 +491,7 @@
   }
 
   .live-container1 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -508,8 +505,7 @@
   }
 
   .live-container2 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -636,7 +632,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid #ec5242;
   }
 
   .hr {
