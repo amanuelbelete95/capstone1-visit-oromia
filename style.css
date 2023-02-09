@@ -86,6 +86,15 @@
     background-color: #22252d;
   }
 
+  .about-page {
+    background-image: url("images/bgtexture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 24px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
   .hum-burger {
     color: #272a31;
     font-size: 32px;
@@ -297,13 +306,6 @@
     cursor: pointer;
   }
 
-  .about-page {
-    background-color: #22252d;
-    padding: 50px 24px;
-    display: grid;
-    grid-template-columns: auto;
-  }
-
   .heading-hr {
     display: flex;
     flex-direction: column;
@@ -315,7 +317,11 @@
     border: 3px solid #ec5242;
   }
 
-  .about-heading {
+  .featured-title {
+    color: #22252d;
+  }
+
+  .hist {
     color: #d3d3d3;
   }
 
@@ -324,6 +330,7 @@
     gap: 10px;
     margin-top: 20px;
     padding: 10px;
+    background-color: #22252d;
   }
 
   .content:hover {
@@ -423,6 +430,7 @@
     color: #272a31;
     border: 2px solid #fff;
     padding: 10px;
+    max-width: 700px;
   }
 
   .info-main {
@@ -430,6 +438,11 @@
     padding: 10px;
     color: #272a31;
     border: 2px solid #fff;
+    max-width: 700px;
+  }
+
+  .info-lists .red-about {
+    color: #ec5242;
   }
 
   .contact-us {
@@ -571,6 +584,11 @@
     padding: 0 5px;
   }
 
+  .red-border a {
+    color: #ec5242;
+    padding: 5px;
+  }
+
   body {
     margin: 0;
     font-family: "Lato", sans-serif;
@@ -586,13 +604,14 @@
   }
 
   .description {
-    padding: 100px 200px;
+    padding: 100px 100px;
   }
 
   .info {
     font-size: 22px;
     margin-bottom: 100px;
     color: #272a31;
+    min-width: 200px;
   }
 
   .heading2 {
@@ -611,13 +630,16 @@
   .about {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: #22252d;
+    background-image: url("images/bgtexture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px;
     gap: 10px;
   }
 
   .content {
-    padding: 0 10px;
+    padding: 5px 10px;
+    background-color: #22252d;
   }
 
   .content:hover {
@@ -631,6 +653,7 @@
   .place-info {
     color: #fff;
     font-size: 18px;
+    padding: 0 10px;
   }
 
   .button-container {
@@ -683,15 +706,16 @@
   .feature-container {
     display: grid;
     grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: center;
     gap: 20px;
-    padding: 0 100px;
+    padding: 50px 120px;
+  }
+
+  .heading-feature {
+    background-color: #fff;
   }
 
   .feature {
     display: flex;
-    padding: 40px;
   }
 
   .statement {
