@@ -87,6 +87,8 @@ The capstone project is about Visit oromia web page. The project shows location 
 ### Key Features <a name="key-features"></a>
 
 - **Website for visitors and tourist**
+- **Website applicable for the mobile and desktop**
+- **Menu bar interactions navigate throug the page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +96,7 @@ The capstone project is about Visit oromia web page. The project shows location 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://amanuelbelete95.github.io/capstone1-visit-oromia/
+-[live](https://amanuelbelete95.github.io/capstone1-visit-oromia/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +225,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partners and my coding reviewer for their supporting suggestions.
+I would like to thank Cindy Shin for the design template provided.
+Originally designed by: [Cindy shin]{https://www.behance.net/adagio07}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
