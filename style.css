@@ -515,7 +515,7 @@
   .live-cont {
     display: grid;
     gap: 30px;
-    padding: 50px;
+    padding: 50px 100px 50px 200px;
     grid-template-columns: auto auto;
   }
 
@@ -605,6 +605,10 @@
 
   .description {
     padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .info {
