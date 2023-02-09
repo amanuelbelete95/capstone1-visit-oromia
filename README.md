@@ -226,7 +226,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Cindy Shin for the design template provided.
-Originally designed by: [Cindy shin]{https://www.behance.net/adagio07}
+Originally designed by: [Cindy shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
