@@ -1,0 +1,774 @@
+@media screen and (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .menu-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    padding: 10px 30px 0 0;
+    background-color: #22252d;
+    mix-blend-mode: normal;
+  }
+
+  .hidden-menu {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .menu-bar .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+  }
+
+  .close-btn {
+    align-self: flex-end;
+    margin-right: 20px;
+    background: none;
+    color: #67798e;
+    border: none;
+    font-size: 25px;
+  }
+
+  .menu-mobile a {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .newline {
+    border: 2px solid #ec5242;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(185, 176, 176, 0.26);
+    padding: 20px 30px;
+  }
+
+  .about-header {
+    display: flex;
+    background-color: rgba(185, 176, 176, 0.26);
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+
+  #about {
+    background-color: #22252d;
+  }
+
+  .about-page {
+    background-image: url("images/bgtexture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 24px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .hum-burger {
+    color: #272a31;
+    font-size: 32px;
+  }
+
+  .nav-lists {
+    display: none;
+  }
+
+  .home-page {
+    background-image: url("images/mobile background.png");
+  }
+
+  .description {
+    padding: 60px 50px 200px;
+  }
+
+  .home-heading {
+    font-size: 50px;
+    color: #ec5242;
+  }
+
+  .home-heading h1 {
+    font-size: 50px;
+  }
+
+  .live-oromia {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .live-oromia h2 {
+    color: #22252d;
+    font-size: 32px;
+  }
+
+  .partner-hr h2 {
+    color: #d3d3d3;
+  }
+
+  .live-oromia p {
+    color: #22252d;
+    font-size: 18px;
+  }
+
+  .live-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .live-cont div {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .live-container1 {
+    background-image:
+      linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5)
+      ),
+      url("images/afroimg.jpg");
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .live-container2 {
+    background-image:
+      linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5)
+      ),
+      url("images/img-oromia.jpg");
+    display: flex;
+    z-index: -1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .live-cont div > h2 {
+    color: #d3d3d3;
+    font-size: 32px;
+  }
+
+  .live-cont div > p {
+    color: #d3d3d3;
+    font-size: 18px;
+  }
+
+  .partner {
+    background-color: #272a31;
+    padding: 20px;
+  }
+
+  .partner-hr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .part {
+    border: 3px solid #ec5242;
+    width: 50px;
+  }
+
+  .partner-img-about {
+    display: grid;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 40px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 50px;
+  }
+
+  .partner-img-about img {
+    width: 100%;
+  }
+
+  .creative-common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 80px;
+  }
+
+  .creative-common h3 {
+    color: #22252d;
+    font-size: 20px;
+  }
+
+  .creative-heading {
+    color: #22252d;
+    font-size: 23px;
+    padding: 0 100px;
+  }
+
+  .info .creative-heading {
+    border-bottom: 2px solid #22252d;
+  }
+
+  .creative-common img {
+    width: 40%;
+  }
+
+  .creative-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-about img {
+    width: 50%;
+  }
+
+  .info {
+    font-size: 22px;
+    color: #272a31;
+    border: 2px solid #fff;
+  }
+
+  .contact-us .info {
+    font-size: 18px;
+  }
+
+  .heading2 {
+    color: #ec5242;
+    font-size: 23px;
+  }
+
+  .interval {
+    color: #272a31;
+  }
+
+  .time {
+    color: black;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .see-more {
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #ec5242;
+    border: none;
+    cursor: pointer;
+  }
+
+  .heading-hr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hr {
+    width: 100px;
+    border: 3px solid #ec5242;
+  }
+
+  .featured-title {
+    color: #22252d;
+  }
+
+  .hist {
+    color: #d3d3d3;
+  }
+
+  .content {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #22252d;
+  }
+
+  .content:hover {
+    border: 2px solid #d3d3d3;
+  }
+
+  .content-heading {
+    color: #ec5242;
+  }
+
+  .place-info {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .mobile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    margin: 0 10px 10px;
+  }
+
+  .feature-container {
+    background-color: #fff;
+    padding: 50px 5px;
+  }
+
+  .feature {
+    padding: 20px 20px;
+  }
+
+  .speaker-pro {
+    color: #ec5242;
+  }
+
+  .speaker-words {
+    color: #22252d;
+    font-size: 20px;
+  }
+
+  .img-speaker {
+    background-image: url("images/Chess_Board.svg.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-color: #fff;
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hum-burger {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .hidden-menu {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    height: 10px;
+    padding: 20px;
+    background-color: #272a31;
+  }
+
+  .social-links a {
+    color: #fff;
+  }
+
+  .creative-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-about {
+    font-size: 22px;
+    color: #272a31;
+    border: 2px solid #fff;
+    padding: 10px;
+    max-width: 700px;
+  }
+
+  .info-main {
+    font-size: 22px;
+    padding: 10px;
+    color: #272a31;
+    border: 2px solid #fff;
+    max-width: 700px;
+  }
+
+  .info-lists .red-about {
+    color: #ec5242;
+  }
+
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-heading {
+    font-size: 70px;
+    color: #ec5242;
+  }
+
+  .creative-heading {
+    color: #22252d;
+    font-size: 32px;
+  }
+
+  .about-info {
+    padding: 0 100px;
+  }
+
+  .info-lists a {
+    color: #22252d;
+  }
+
+  .contact-us .creative-heading {
+    border-bottom: 2px solid#22252d;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .logo-container img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+
+  .logo-about img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .see-people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-hr {
+    background-color: #22252d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about {
+    color: #d3d3d3;
+  }
+
+  .heading-hr hr {
+    border: 3px solid #ec5242;
+  }
+
+  .live-cont {
+    display: grid;
+    gap: 30px;
+    padding: 50px 100px 50px 200px;
+    grid-template-columns: auto auto;
+  }
+
+  .live-cont div {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .partner-hr h2 {
+    color: #d3d3d3;
+  }
+
+  .live-cont div > h2 {
+    color: #d3d3d3;
+    font-size: 23px;
+  }
+
+  .live-cont div > p {
+    color: #d3d3d3;
+    font-size: 18px;
+  }
+
+  .live-container1 {
+    background-image:
+      linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5)
+      ),
+      url("images/afroimg.jpg");
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .live-container2 {
+    background-image:
+      linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5)
+      ),
+      url("images/img-oromia.jpg");
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    z-index: -1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-lists {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 0;
+  }
+
+  .red-border {
+    border: 5px solid #ec5242;
+    padding: 0 5px;
+  }
+
+  .red-border a {
+    color: #ec5242;
+    padding: 5px;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .home-page {
+    background-image: url("images/mobile\ background.png");
+  }
+
+  .description {
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    font-size: 22px;
+    margin-bottom: 100px;
+    color: #272a31;
+    min-width: 200px;
+  }
+
+  .heading2 {
+    color: #ec5242;
+    font-size: 23px;
+  }
+
+  .interval {
+    color: #272a31;
+  }
+
+  .time {
+    color: black;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-image: url("images/bgtexture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    gap: 10px;
+  }
+
+  .content {
+    padding: 5px 10px;
+    background-color: #22252d;
+  }
+
+  .content:hover {
+    border: 2px solid #d3d3d3;
+  }
+
+  .content-heading {
+    color: #ec5242;
+  }
+
+  .place-info {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .button-container {
+    width: 100%;
+    background-color: #22252d;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .see-more {
+    color: #d3d3d3;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #22252d;
+  }
+
+  .mobile-image {
+    width: 100%;
+    height: 40%;
+    border-radius: 12px;
+    margin: 0 10px 10px;
+  }
+
+  .speaker-pro {
+    color: #ec5242;
+  }
+
+  .speaker-words {
+    color: #22252d;
+    font-size: 20px;
+  }
+
+  .img-speaker {
+    width: 30%;
+    height: 50%;
+    background-image: url("images/Chess_Board.svg.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-size: 35%;
+  }
+
+  .hr {
+    width: 100px;
+    border: 1px solid #ec5242;
+  }
+
+  .feature-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 50px 120px;
+  }
+
+  .heading-feature {
+    background-color: #fff;
+  }
+
+  .feature {
+    display: flex;
+  }
+
+  .statement {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .partner {
+    background-color: #22252d;
+  }
+
+  .partner-hr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .part {
+    border: 3px solid #ec5242;
+    width: 50px;
+  }
+
+  .partner-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .partner-img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hidden-partner {
+    display: none;
+  }
+
+  .creative-common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+  }
+
+  .creative-common img {
+    width: 200px;
+    height: 200px;
+  }
+}
